@@ -1,0 +1,93 @@
+/* header */
+
+header li {
+  display: inline-block;
+}
+
+header li p {
+  color: gray;
+  font-size: 11px;
+}
+
+header li :first-child{
+  margin-left:5px;
+}
+header li:nth-child(3){
+  float:right;
+}
+
+
+header h1 {
+  font-size: 35px;
+}
+/* border */
+
+
+/* not working yet */
+div.stripeBorder {
+  height:15px;
+  width:1020px;
+  background-image: url('../../img/hr-img.png');
+  background-repeat:repeat-x repeat-y;
+  margin-top:35px;
+}
+
+/* main */
+
+main {
+  margin-top:40px;
+}
+main h2 {
+  font-size: 30px;
+  font-weight:bold;
+}
+
+.subtext {
+  font-size:11px;
+  color: gray;
+
+}
+
+/* section one */
+
+section li {
+  display: inline-block;
+}
+
+section li:nth-child(2){
+  float:right;
+}
+
+section img.main {
+  margin-top:20px;
+
+}
+
+section p {
+  margin-top:30px;
+  text-indent: 30px;
+  font-size: 20px;
+  color:gray
+
+}
+
+div.recipe {
+  background-image: url('../../img/list-bg.png');
+  font-size:20px;
+  color:gray;
+  column-count: 2;
+  padding: 48px;
+  margin-top: 30px;
+}
+
+div.recipe ul {
+ 
+}
+
+
+  
+
+
+
+
+
