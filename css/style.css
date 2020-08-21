@@ -1,10 +1,17 @@
+/* container */
+
+div#container{
+  width: 900px;
+  margin: auto;
+  margin-top: 30px;
+}
 /* header */
 
 header li {
   display: inline-block;
 }
 
-header li p {
+header li sub {
   color: gray;
   font-size: 11px;
 }
@@ -26,7 +33,7 @@ header h1 {
 /* not working yet */
 div.stripeBorder {
   height:15px;
-  width:1020px;
+  width:900px;
   background-image: url('../../img/hr-img.png');
   background-repeat:repeat-x repeat-y;
   margin-top:35px;
@@ -41,12 +48,13 @@ main h2 {
   font-size: 30px;
   font-weight:bold;
 }
-
-.subtext {
-  font-size:11px;
-  color: gray;
+sub {
+font-size: 11px;
+color: gainsboro;
 
 }
+
+
 
 /* section one */
 
@@ -80,14 +88,50 @@ div.recipe {
   margin-top: 30px;
 }
 
-div.recipe ul {
- 
+div.about {
+  display: inline-block;
+  width: 100%;
+  margin-top: 25px;
+
 }
 
-
+div.about img {
+  float: left;
+  padding-right: 15px;
   
+}
 
+div.about h3 {
+  font-weight: bolder;
+  margin-bottom: 5px;
 
+}
 
+div.about p {
+  width: 500px;
 
+}
+
+div.about button {
+  float: right;
+  background-color: orange;
+  height: 50px;
+  width: 175px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  color: gainsboro;
+
+}
+
+footer P {
+  margin-top: 20px;
+
+}
 
